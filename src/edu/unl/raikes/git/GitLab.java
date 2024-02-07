@@ -2,8 +2,7 @@ package edu.unl.raikes.git;
 
 public class GitLab {
     public static void main(String[] args) {
-        System.out.print("Lmao");
-        GitLabHelper helper = new GitLabHelper("Dant", "Tia");
+        GitLabHelper helper = new GitLabHelper(new String[] {"Dant", "Tia"});
         helper.PrintWelcomeMessage();
     }
 }
